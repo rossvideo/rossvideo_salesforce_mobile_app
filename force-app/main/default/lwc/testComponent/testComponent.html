@@ -1,0 +1,244 @@
+<template>
+  <!-- <div class="bg-img">
+    <lightning-input
+      type="search"
+      name="input1"
+      class="container"
+      align="center"
+    ></lightning-input>
+  </div>
+  <div></div>
+  <br />
+  <br /> -->
+  <lightning-accordion
+    allow-multiple-sections-open
+    active-section-name={activeSections}
+    lable="Products"
+  >
+    <lightning-accordion-section
+      name="Control Systems"
+      label="Products"
+      class="products"
+    >
+      <lightning-accordion-section
+        name="Control Systems"
+        class="control-systems"
+        label="CONTROL SYSTEMS"
+        onmouseover={boxClass}
+        onclick={highlight}
+      >
+        <a
+          href="https://rossvideo--qa.lightning.force.com/lightning/n/Lightning"
+          ><button class="cs-btn">
+            DashBoard
+          </button> </a
+        ><br />
+        <a
+          href="https://rossvideo--qa.lightning.force.com/lightning/n/Lightning"
+          ><button class="cs-btn">
+            Lightning
+          </button>
+        </a>
+        <br />
+        <a
+          href="https://rossvideo--qa.lightning.force.com/lightning/n/Lightning"
+          ><button class="cs-btn">
+            Powerplay
+          </button>
+        </a>
+      </lightning-accordion-section>
+      <lightning-accordion-section
+        name="Asset Management"
+        class="asset-management"
+        label="ASSET MANAGEMENT"
+      >
+        <button class="asset-management">Streamline</button><br />
+        <button class="asset-management">Streamline Play</button><br />
+        <button class="asset-management">Streamline Cloud</button>
+      </lightning-accordion-section>
+
+      <lightning-accordion-section
+        name="News & Social"
+        class="news-social"
+        label="NEWS & SOCIAL"
+      >
+        <button class="news-social">Inception News</button><br />
+        <button class="news-social">Inception Social</button><br />
+        <button class="news-social">Inception Live</button><br />
+        <button class="news-social">Inception Cloud</button>
+      </lightning-accordion-section>
+
+      <lightning-accordion-section
+        name="WorkFLow Connection"
+        class="workflow-connection"
+        label="WORKFLOW CONNECTION"
+      >
+        <button class="workflow-connection">HORIZON</button>
+      </lightning-accordion-section>
+
+      <lightning-accordion-section
+        name="AUTOMATED PRODUCTION CONTROL"
+        class="automated-production-control"
+        label="AUTOMATED PRODUCTION CONTROL"
+      >
+        <button class="automated-production-control">OVERDRIVE</button>
+      </lightning-accordion-section>
+
+      <lightning-accordion-section
+        name="CAMERA & ROBOTICS SYSTEM"
+        class="camera-robotics"
+        label="CAMERA & ROBOTICS SYSTEM"
+      >
+        <button class="camera-robotics">ACID CAM</button><br />
+        <button class="camera-robotics">PIVOT</button><br />
+        <button class="camera-robotics">FURIO</button><br />
+        <button class="camera-robotics">FURIO SKY DOLLY</button><br />
+        <button class="camera-robotics">VR 100</button><br />
+        <button class="camera-robotics">VR 0</button><br />
+        <button class="camera-robotics">CAM BOT</button>
+      </lightning-accordion-section>
+
+      <lightning-accordion-section
+        name="MOTION GRAPHICS AND VIRTUAL PRODUCTION"
+        class="motion-graphics"
+        label="MOTION GRAPHICS AND VIRTUAL PRODUCTION"
+      >
+        <button class="motion-graphics-sub">Xpression</button><br />
+        <button class="motion-graphics-sub">PIERO</button><br />
+        <button class="motion-graphics-sub">UX</button><br />
+        <button class="motion-graphics-sub">Voyager</button><br />
+        <button class="motion-graphics-sub">Trackless Studio</button>
+      </lightning-accordion-section>
+
+      <lightning-accordion-section
+        name="VIDEO SERVERS, REPLAY AND DELAY"
+        class="video-servers"
+        label="VIDEO SERVERS, REPLAY AND DELAY"
+      >
+        <button class="video-servers">MIRA</button><br />
+        <button class="video-servers">MIRA Express</button><br />
+        <button class="video-servers">TRIA Plus</button><br />
+        <button class="video-servers">TRIA Plus UHD</button><br />
+        <button class="video-servers">TRIA Express</button><br />
+        <button class="video-servers">TRIA News</button><br />
+        <button class="video-servers">AIR Cleaner</button><br />
+      </lightning-accordion-section>
+
+      <lightning-accordion-section
+        name="PRODUCTION SWITCHERS"
+        class="production-switchers"
+        label="PRODUCTION SWITCHERS"
+      >
+        <button class="production-switchers">ACUITY</button><br />
+        <button class="production-switchers">CARBONITE Black</button><br />
+        <button class="production-switchers">CARBONITE Black SOLO</button><br />
+        <button class="production-switchers">CARBONITE Ultra</button><br />
+        <button class="ip-switcher">Carbonite IP</button><br />
+        <button class="ip-switcher">Acuity IP</button><br />
+        <button class="production-switchers">UltraChrome</button><br />
+        <button class="production-switchers">GRAPHITE</button><br />
+        <button class="production-switchers">RAVE</button><br />
+        <button class="production-switchers">CARBONITE MOSIAC</button><br />
+      </lightning-accordion-section>
+
+      <lightning-accordion-section
+        name="CONNECTIVITY AND MULTIVIEWERS"
+        class="connectivity-multiviewers"
+        label="CONNECTIVITY AND MULTIVIEWERS"
+      >
+        <button class="connectivity-multiviewers">PRO-XI</button><br />
+        <button class="connectivity-multiviewers">ULTRIX</button><br />
+        <button class="connectivity-multiviewers">ULTRIX IP</button><br />
+        <button class="connectivity-multiviewers">Ultricore</button><br />
+        <button class="connectivity-multiviewers">Ultricore BSC</button><br />
+        <button class="connectivity-multiviewers">Ultritouch</button><br />
+        <button class="connectivity-multiviewers">Ultriclean</button><br />
+        <button class="connectivity-multiviewers">Ultricool</button><br />
+        <button class="connectivity-multiviewers">Ultrispeed</button><br />
+        <button class="connectivity-multiviewers">Ultriscape</button><br />
+        <button class="connectivity-multiviewers">Ultriscape</button><br />
+        <button class="connectivity-multiviewers">Ultrimix</button><br />
+        <button class="connectivity-multiviewers">Ultripower</button><br />
+        <button class="connectivity-multiviewers">NK Routing Systems</button
+        ><br />
+        <button class="connectivity-multiviewers">Master Control</button><br />
+        <button class="connectivity-multiviewers">OPENGEAR</button><br />
+        <button class="connectivity-multiviewers">SOFTGEAR</button><br />
+        <button class="connectivity-multiviewers">GATOR</button><br />
+        <button class="connectivity-multiviewers">RAPTOR</button><br />
+        <button class="connectivity-multiviewers">IGGY</button><br />
+        <button class="connectivity-multiviewers">NEWT</button><br />
+        <button class="connectivity-multiviewers">Infrastructure</button><br />
+        <button class="connectivity-multiviewers">Gearlite</button><br />
+        <button class="connectivity-multiviewers">Bach</button><br />
+        <button class="connectivity-multiviewers">Swift</button><br />
+        <button class="connectivity-multiviewers">NK Routing Systems</button
+        ><br />
+      </lightning-accordion-section>
+
+      <lightning-accordion-section
+        name="SERVICES SOLUTIONS AND SUPPORT"
+        class="services"
+        label="SERVICES SOLUTIONS AND SUPPORT"
+      >
+        <button class="services">ROCKET SURGERY</button><br />
+        <button class="services">SPORTS AND LIVE</button><br />
+        <button class="services">MOBILE PRODUCTION</button><br />
+        <button class="services">VIRTUAL SOLUTIONS</button><br />
+        <button class="services">PRODUCT SECURITY</button><br />
+        <button class="services">VIRTUALIZATION SOLUTIONS</button><br />
+        <button class="services">OPENTRUCK</button><br />
+        <button class="services">ROSSCARE</button><br />
+        <button class="services">Ultriscape</button><br />
+        <br />
+      </lightning-accordion-section>
+    </lightning-accordion-section>
+  </lightning-accordion>
+  <!-- <br />
+  <br />
+  <br />
+  -->
+  <!-- <div class="slider">
+    <a href="#slide-1">1</a>
+    <a href="#slide-2">2</a>
+    <a href="#slide-3">3</a>
+
+    <div class="slides">
+      <div id="slide-1">
+        <img src="https://homepages.cae.wisc.edu/~ece533/images/airplane.png" />
+      </div>
+      <div id="slide-2">
+        <img
+          src="https://homepages.cae.wisc.edu/~ece533/images/arctichare.png"
+        />
+      </div>
+      <div id="slide-3">
+        <img src="https://homepages.cae.wisc.edu/~ece533/images/boat.png" />
+      </div>
+    </div>
+  </div> -->
+  <!-- <input id="check01" type="checkbox" name="menu" />
+<label for="check01">Menu</label>
+<ul class="submenu">
+  <li><a href="#">Item 1</a></li>
+  <li><a href="#">Item 2</a></li>
+</ul> -->
+  <!-- <lightning-accordion
+    allow-multiple-sections-open
+    onsectiontoggle={handleSectionToggle}
+  >
+    <lightning-accordion-section
+      class="asset-management"
+      name="A"
+      label="Accordion Title A"
+      style="padding: 0px;"
+    >
+      <lightning-accordion-section
+        class="control-systems"
+        label="Accordion SubTitle A"
+      >
+        <button>Part 1</button>
+      </lightning-accordion-section>
+    </lightning-accordion-section>
+  </lightning-accordion> -->
+</template>

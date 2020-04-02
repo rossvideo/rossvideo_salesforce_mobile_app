@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/testComponent": [
+                "../main/default/lwc/testComponent/testComponent.js"
+            ],
+            "c/lightningComponent": [
+                "../main/default/lwc/lightningComponent/lightningComponent.js"
+            ]
+        },
+        "experimentalDecorators": true
+    },
+    "include": [
+        "**/*",
+        "../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
