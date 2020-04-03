@@ -17,4 +17,8 @@ export default class HelloWorld extends LightningElement {
   test() {
     alert("test");
   }
+
+  highlight(evt) {
+    evt.target.classList.toggle("highlight");
+  }
 }

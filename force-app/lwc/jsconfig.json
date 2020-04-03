@@ -7,6 +7,9 @@
             ],
             "c/lightningComponent": [
                 "../main/default/lwc/lightningComponent/lightningComponent.js"
+            ],
+            "c/backToHome": [
+                "../main/default/lwc/backToHome/backToHome.js"
             ]
         },
         "experimentalDecorators": true

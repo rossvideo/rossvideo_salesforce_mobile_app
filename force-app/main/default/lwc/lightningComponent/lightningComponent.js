@@ -2,9 +2,10 @@ import { LightningElement, track, api } from "lwc";
 
 export default class LightningComponent extends LightningElement {
   @api recordId;
-  get boxClass() {
-    return `position: absolute; background-color:white; top:${this.top -
-      280}px; left:${this.left}px`;
+  boxClass(x) {
+    // return `color:white ; position: absolute; background-color:white; top:${this
+    //   .top - 280}px; left:${this.left}px`;
+    x.style.color = "white";
   }
 
   //   highlight(evt) {
