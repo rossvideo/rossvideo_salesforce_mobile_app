@@ -19,6 +19,9 @@
             ],
             "c/inceptionSocialComponent": [
                 "../main/default/lwc/inceptionSocialComponent/inceptionSocialComponent.js"
+            ],
+            "c/inceptionLiveComponent": [
+                "../main/default/lwc/inceptionLiveComponent/inceptionLiveComponent.js"
             ]
         },
         "experimentalDecorators": true

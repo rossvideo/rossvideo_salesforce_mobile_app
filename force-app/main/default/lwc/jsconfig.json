@@ -20,6 +20,9 @@
             ],
             "c/inceptionSocialComponent": [
                 "inceptionSocialComponent/inceptionSocialComponent.js"
+            ],
+            "c/inceptionLiveComponent": [
+                "inceptionLiveComponent/inceptionLiveComponent.js"
             ]
         }
     },
