@@ -13,6 +13,9 @@
             ],
             "c/powerPlayComponent": [
                 "../main/default/lwc/powerPlayComponent/powerPlayComponent.js"
+            ],
+            "c/inceptionNewsComponent": [
+                "../main/default/lwc/inceptionNewsComponent/inceptionNewsComponent.js"
             ]
         },
         "experimentalDecorators": true

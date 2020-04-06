@@ -24,29 +24,45 @@
   color: #ffffff;
 }
 .asset-management {
-  background-color: #0075c8;
+  background-color: #a93a63;
   font-size: 19px;
   padding: 0px !important;
   color: #ffffff;
+  text-align: center;
+}
+
+.am-btn {
+  background-color: #a93a63;
+  font-size: 100%;
+  border: 0px;
+  color: #ffffff;
 }
 .news-social {
-  background-color: #1ba4de;
+  background-color: #0075cb;
   font-size: 19px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.ns-btn {
+  background-color: #0075cb;
+  font-size: 100%;
+  border: 0px;
   color: #ffffff;
 }
 .workflow-connection {
-  background-color: #7fa9ae;
+  background-color: #309b42;
   font-size: 19px;
   color: #ffffff;
 }
 .automated-production-control {
-  background-color: #a93a63;
+  background-color: #ab2328;
   font-size: 19px;
   color: #ffffff;
 }
 
 .camera-robotics {
-  background-color: #ab2328;
+  background-color: #f1b434;
   font-size: 19px;
   color: #ffffff;
 }
@@ -63,7 +79,7 @@
 }
 
 .video-servers {
-  background-color: #f1b434;
+  background-color: #00c389;
   font-size: 19px;
   color: #ffffff;
 }
@@ -75,9 +91,9 @@
 }
 
 .production-switchers {
-  background-color: #309b42;
+  background-color: #fbee23;
   font-size: 19px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .carbonite-ultra {
@@ -93,13 +109,13 @@
 }
 
 .connectivity-multiviewers {
-  background-color: #00c389;
+  background-color: #00a3e1;
   font-size: 19px;
   color: #ffffff;
 }
 
 .services {
-  background-color: #bebebe;
+  background-color: #da291c;
   font-size: 19px;
   color: #ffffff;
 }
