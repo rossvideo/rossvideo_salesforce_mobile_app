@@ -16,6 +16,9 @@
             ],
             "c/inceptionNewsComponent": [
                 "../main/default/lwc/inceptionNewsComponent/inceptionNewsComponent.js"
+            ],
+            "c/inceptionSocialComponent": [
+                "../main/default/lwc/inceptionSocialComponent/inceptionSocialComponent.js"
             ]
         },
         "experimentalDecorators": true

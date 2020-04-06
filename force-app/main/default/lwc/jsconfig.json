@@ -17,6 +17,9 @@
             ],
             "c/inceptionNewsComponent": [
                 "inceptionNewsComponent/inceptionNewsComponent.js"
+            ],
+            "c/inceptionSocialComponent": [
+                "inceptionSocialComponent/inceptionSocialComponent.js"
             ]
         }
     },

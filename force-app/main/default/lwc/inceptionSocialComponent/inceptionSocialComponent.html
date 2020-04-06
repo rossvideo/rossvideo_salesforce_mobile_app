@@ -1,0 +1,73 @@
+<template>
+  <lightning-card title="Pricing Information" icon-name="action:new_note">
+    <div class="slds-m-around_medium">
+      <table>
+        <tr>
+          <th>Product Name</th>
+          <th>Product Code</th>
+          <th>Pricing</th>
+        </tr>
+        <tr>
+          <td>Inception Social - Software</td>
+          <td>
+            <a
+              href="https://rossvideo--qa.lightning.force.com/lightning/r/Product2/01t0B000002EzT3QAK/view"
+              >INC-SW-SOCIAL</a
+            >
+          </td>
+          <td>
+            <lightning-record-view-form
+              record-id="01t0B000002EzT3QAK"
+              object-api-name="Product2"
+              density="comfy"
+            >
+              <lightning-output-field
+                field-name="USD_Price__c"
+              ></lightning-output-field>
+            </lightning-record-view-form>
+          </td>
+        </tr>
+        <tr>
+          <td>Inception Social - Software - Maintenance</td>
+          <td>
+            <a
+              href="https://rossvideo--qa.lightning.force.com/lightning/r/Product2/01tU00000036ObLIAU/view"
+              >INC-999-SW-SOCIAL</a
+            >
+          </td>
+          <td>
+            <lightning-record-view-form
+              record-id="01tU00000036ObLIAU"
+              object-api-name="Product2"
+              density="comfy"
+            >
+              <lightning-output-field
+                field-name="USD_Price__c"
+              ></lightning-output-field>
+            </lightning-record-view-form>
+          </td>
+        </tr>
+        <tr>
+          <td>Inception Social - Trial Software</td>
+          <td>
+            <a
+              href="https://rossvideo--qa.lightning.force.com/lightning/r/Product2/01tU0000002PnhIIAS/view"
+              >INC-SW-SOCIAL-TRIAL</a
+            >
+          </td>
+          <td>
+            <lightning-record-view-form
+              record-id="01tU0000002PnhIIAS"
+              object-api-name="Product2"
+              density="comfy"
+            >
+              <lightning-output-field
+                field-name="USD_Price__c"
+              ></lightning-output-field>
+            </lightning-record-view-form>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </lightning-card>
+</template>
