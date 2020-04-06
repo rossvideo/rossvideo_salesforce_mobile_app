@@ -11,6 +11,9 @@
             ],
             "c/backToHome": [
                 "backToHome/backToHome.js"
+            ],
+            "c/powerPlayComponent": [
+                "powerPlayComponent/powerPlayComponent.js"
             ]
         }
     },
