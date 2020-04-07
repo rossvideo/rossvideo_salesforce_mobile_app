@@ -26,6 +26,9 @@
             ],
             "c/inceptionCloudComponent": [
                 "inceptionCloudComponent/inceptionCloudComponent.js"
+            ],
+            "c/streamlinePlayComponent": [
+                "streamlinePlayComponent/streamlinePlayComponent.js"
             ]
         }
     },

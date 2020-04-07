@@ -25,6 +25,9 @@
             ],
             "c/inceptionCloudComponent": [
                 "../main/default/lwc/inceptionCloudComponent/inceptionCloudComponent.js"
+            ],
+            "c/streamlinePlayComponent": [
+                "../main/default/lwc/streamlinePlayComponent/streamlinePlayComponent.js"
             ]
         },
         "experimentalDecorators": true
