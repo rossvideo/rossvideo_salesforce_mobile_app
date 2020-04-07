@@ -28,6 +28,9 @@
             ],
             "c/streamlinePlayComponent": [
                 "../main/default/lwc/streamlinePlayComponent/streamlinePlayComponent.js"
+            ],
+            "c/streamlineCloudComponent": [
+                "../main/default/lwc/streamlineCloudComponent/streamlineCloudComponent.js"
             ]
         },
         "experimentalDecorators": true

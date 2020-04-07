@@ -29,6 +29,9 @@
             ],
             "c/streamlinePlayComponent": [
                 "streamlinePlayComponent/streamlinePlayComponent.js"
+            ],
+            "c/streamlineCloudComponent": [
+                "streamlineCloudComponent/streamlineCloudComponent.js"
             ]
         }
     },
