@@ -54,6 +54,14 @@
   background-color: #309b42;
   font-size: 19px;
   color: #ffffff;
+  text-align: center;
+}
+
+.wc-btn {
+  background-color: #309b42;
+  font-size: 100%;
+  border: 0px;
+  color: #ffffff;
 }
 .automated-production-control {
   background-color: #ab2328;
