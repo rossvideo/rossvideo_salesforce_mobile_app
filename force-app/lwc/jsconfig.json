@@ -22,6 +22,9 @@
             ],
             "c/inceptionLiveComponent": [
                 "../main/default/lwc/inceptionLiveComponent/inceptionLiveComponent.js"
+            ],
+            "c/inceptionCloudComponent": [
+                "../main/default/lwc/inceptionCloudComponent/inceptionCloudComponent.js"
             ]
         },
         "experimentalDecorators": true

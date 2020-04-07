@@ -1,0 +1,33 @@
+<template>
+  <lightning-card title="Pricing Information" icon-name="action:new_note">
+    <div class="slds-m-around_medium">
+      <table>
+        <tr>
+          <th>Product Name</th>
+          <th>Product Code</th>
+          <th>Pricing</th>
+        </tr>
+        <tr>
+          <td>Commission for Inception Cloud</td>
+          <td>
+            <a
+              href="https://rossvideo--qa.lightning.force.com/lightning/r/Product2/01t0B000007xtpWQAQ/view"
+              >COMM-CLOUD-INC</a
+            >
+          </td>
+          <td>
+            <lightning-record-view-form
+              record-id="01t0B000007xtpWQAQ"
+              object-api-name="Product2"
+              density="comfy"
+            >
+              <lightning-output-field
+                field-name="USD_Price__c"
+              ></lightning-output-field>
+            </lightning-record-view-form>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </lightning-card>
+</template>

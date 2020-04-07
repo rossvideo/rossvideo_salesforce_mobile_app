@@ -23,6 +23,9 @@
             ],
             "c/inceptionLiveComponent": [
                 "inceptionLiveComponent/inceptionLiveComponent.js"
+            ],
+            "c/inceptionCloudComponent": [
+                "inceptionCloudComponent/inceptionCloudComponent.js"
             ]
         }
     },
