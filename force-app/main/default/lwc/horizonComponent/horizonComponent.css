@@ -14,12 +14,3 @@ th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-
-.info {
-  padding: 20px;
-}
-
-h1 {
-  padding-left: 20px;
-  font-size: 30px;
-}

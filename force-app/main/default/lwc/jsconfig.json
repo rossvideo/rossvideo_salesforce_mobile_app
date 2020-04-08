@@ -32,6 +32,9 @@
             ],
             "c/streamlineCloudComponent": [
                 "streamlineCloudComponent/streamlineCloudComponent.js"
+            ],
+            "c/horizonComponent": [
+                "horizonComponent/horizonComponent.js"
             ]
         }
     },

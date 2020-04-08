@@ -1,4 +1,72 @@
 <template>
+  <lightning-card>
+    <h1>Product Description</h1>
+    <lightning-record-view-form
+      record-id="a8nP00000008QzkIAE"
+      object-api-name="Product_Category__c"
+      density="comfy"
+    >
+      <div class="info">
+        <lightning-output-field
+          field-name="Value_Proposition__c"
+          variant="label-hidden"
+        ></lightning-output-field>
+      </div>
+    </lightning-record-view-form>
+  </lightning-card>
+
+  <!-- <div>
+    <lightning-card>
+      <h1>Value Proposition</h1>
+      <lightning-record-view-form
+        record-id="a8nP00000008QzkIAE"
+        object-api-name="Product_Category__c"
+        density="comfy"
+      >
+        <div class="info">
+          <lightning-output-field
+            field-name="Value_Proposition__c"
+            variant="label-hidden"
+          ></lightning-output-field>
+        </div>
+      </lightning-record-view-form>
+    </lightning-card>
+  </div> -->
+  <div>
+    <lightning-card>
+      <h1>Key Messaging</h1>
+      <lightning-record-view-form
+        record-id="a8nP00000008QzkIAE"
+        object-api-name="Product_Category__c"
+        density="comfy"
+      >
+        <div class="info">
+          <lightning-output-field
+            field-name="Key_Messages__c"
+            variant="label-hidden"
+          ></lightning-output-field>
+        </div>
+      </lightning-record-view-form>
+    </lightning-card>
+  </div>
+
+  <div>
+    <lightning-card>
+      <h1>What's New</h1>
+      <lightning-record-view-form
+        record-id="a8nP00000008QzkIAE"
+        object-api-name="Product_Category__c"
+        density="comfy"
+      >
+        <div class="info">
+          <lightning-output-field
+            field-name="What_New__c"
+            variant="label-hidden"
+          ></lightning-output-field>
+        </div>
+      </lightning-record-view-form>
+    </lightning-card>
+  </div>
   <lightning-card title="Pricing Information" icon-name="action:new_note">
     <div class="slds-m-around_medium">
       <table>
@@ -24,20 +92,6 @@
               <lightning-output-field
                 field-name="USD_Price__c"
               ></lightning-output-field>
-              <!-- <form class="slds-form">
-                <div class="slds-form-element slds-form-element_horizontal">
-                  <label class="slds-form-element__label" for="form-element-01"
-                    >Shipped Asset</label
-                  >
-                  <lightning-output-field
-                    variant="label-hidden"
-                    field-name="USD_Price__c"
-                  >
-                  </lightning-output-field>
-                </div>
-                <lightning-output-field field-name="USD_Price__c">
-                </lightning-output-field>
-              </form> -->
             </lightning-record-view-form>
           </td>
         </tr>

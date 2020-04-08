@@ -31,6 +31,9 @@
             ],
             "c/streamlineCloudComponent": [
                 "../main/default/lwc/streamlineCloudComponent/streamlineCloudComponent.js"
+            ],
+            "c/horizonComponent": [
+                "../main/default/lwc/horizonComponent/horizonComponent.js"
             ]
         },
         "experimentalDecorators": true
