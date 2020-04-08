@@ -35,6 +35,9 @@
             ],
             "c/horizonComponent": [
                 "horizonComponent/horizonComponent.js"
+            ],
+            "c/overdriveComponent": [
+                "overdriveComponent/overdriveComponent.js"
             ]
         }
     },

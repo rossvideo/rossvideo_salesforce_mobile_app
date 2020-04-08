@@ -67,6 +67,13 @@
   background-color: #ab2328;
   font-size: 19px;
   color: #ffffff;
+  text-align: center;
+}
+.overdrive {
+  background-color: #ab2328;
+  font-size: 100%;
+  border: 0px;
+  color: #ffffff;
 }
 
 .camera-robotics {

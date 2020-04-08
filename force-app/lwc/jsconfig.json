@@ -34,6 +34,9 @@
             ],
             "c/horizonComponent": [
                 "../main/default/lwc/horizonComponent/horizonComponent.js"
+            ],
+            "c/overdriveComponent": [
+                "../main/default/lwc/overdriveComponent/overdriveComponent.js"
             ]
         },
         "experimentalDecorators": true
