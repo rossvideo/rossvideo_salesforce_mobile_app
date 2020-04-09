@@ -21,6 +21,7 @@
   background-color: #7fa9ae;
   font-size: 100%;
   border: 0px;
+  margin: 0.5em;
   color: #ffffff;
 }
 .asset-management {
@@ -35,6 +36,7 @@
   background-color: #a93a63;
   font-size: 100%;
   border: 0px;
+  margin: 0.5em;
   color: #ffffff;
 }
 .news-social {
@@ -48,6 +50,7 @@
   background-color: #0075cb;
   font-size: 100%;
   border: 0px;
+  margin: 0.5em;
   color: #ffffff;
 }
 .workflow-connection {
@@ -61,6 +64,7 @@
   background-color: #309b42;
   font-size: 100%;
   border: 0px;
+  margin: 0.5em;
   color: #ffffff;
 }
 .automated-production-control {
@@ -87,25 +91,35 @@
   background-color: #f1b434;
   font-size: 100%;
   border: 0px;
+  margin: 0.5em;
   color: #ffffff;
 }
 
 .motion-graphics {
   background-color: #e87722;
-  font-size: 118px;
+  font-size: 18px;
   color: #ffffff;
   text-align: center;
 }
 .motion-graphics-sub {
-  background-color: #eb7722;
-  font-size: 18px;
+  background-color: #e87722;
+  font-size: 100%;
+  border: 0px;
   color: #ffffff;
-  text-align: center;
 }
 
 .video-servers {
   background-color: #00c389;
   font-size: 19px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.vs-btn {
+  background-color: #00c389;
+  font-size: 100%;
+  border: 0px;
+  margin: 0.5em;
   color: #ffffff;
 }
 .products {
@@ -116,9 +130,18 @@
 }
 
 .production-switchers {
-  background-color: #fbee23;
+  background-color: #5f2498;
   font-size: 19px;
-  color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+
+.ps-btn {
+  background-color: #5f2498;
+  font-size: 100%;
+  border: 0px;
+  margin: 0.5em;
+  color: #ffffff;
 }
 
 .carbonite-ultra {
@@ -137,14 +160,30 @@
   background-color: #00a3e1;
   font-size: 19px;
   color: #ffffff;
+  text-align: center;
 }
 
+.mlt-btn {
+  background-color: #00a3e1;
+  font-size: 100%;
+  border: 0px;
+  margin: 0.5em;
+  color: #ffffff;
+}
 .services {
   background-color: #da291c;
   font-size: 19px;
   color: #ffffff;
+  text-align: center;
 }
 
+.ser-btn {
+  background-color: #da291c;
+  font-size: 100%;
+  border: 0px;
+  margin: 0.5em;
+  color: #ffffff;
+}
 * {
   box-sizing: border-box;
 }
