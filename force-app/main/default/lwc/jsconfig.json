@@ -38,6 +38,9 @@
             ],
             "c/overdriveComponent": [
                 "overdriveComponent/overdriveComponent.js"
+            ],
+            "c/acidcamComponent": [
+                "acidcamComponent/acidcamComponent.js"
             ]
         }
     },

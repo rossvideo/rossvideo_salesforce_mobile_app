@@ -37,6 +37,9 @@
             ],
             "c/overdriveComponent": [
                 "../main/default/lwc/overdriveComponent/overdriveComponent.js"
+            ],
+            "c/acidcamComponent": [
+                "../main/default/lwc/acidcamComponent/acidcamComponent.js"
             ]
         },
         "experimentalDecorators": true
