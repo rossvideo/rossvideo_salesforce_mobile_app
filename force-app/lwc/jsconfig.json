@@ -79,6 +79,33 @@
             ],
             "c/graphiteComponent": [
                 "../main/default/lwc/graphiteComponent/graphiteComponent.js"
+            ],
+            "c/virtualSolutionComponent": [
+                "../main/default/lwc/virtualSolutionComponent/virtualSolutionComponent.js"
+            ],
+            "c/openGearComponent": [
+                "../main/default/lwc/openGearComponent/openGearComponent.js"
+            ],
+            "c/mc1MasterControlComponent": [
+                "../main/default/lwc/mc1MasterControlComponent/mc1MasterControlComponent.js"
+            ],
+            "c/ultrixComponent": [
+                "../main/default/lwc/ultrixComponent/ultrixComponent.js"
+            ],
+            "c/ultriControlSystemComponent": [
+                "../main/default/lwc/ultriControlSystemComponent/ultriControlSystemComponent.js"
+            ],
+            "c/nKRoutingSystemComponent": [
+                "../main/default/lwc/nKRoutingSystemComponent/nKRoutingSystemComponent.js"
+            ],
+            "c/ultriTouchComponent": [
+                "../main/default/lwc/ultriTouchComponent/ultriTouchComponent.js"
+            ],
+            "c/proXiComponent": [
+                "../main/default/lwc/proXiComponent/proXiComponent.js"
+            ],
+            "c/rocketSurgeryComponent": [
+                "../main/default/lwc/rocketSurgeryComponent/rocketSurgeryComponent.js"
             ]
         },
         "experimentalDecorators": true

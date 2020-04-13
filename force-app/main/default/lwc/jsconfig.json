@@ -80,6 +80,33 @@
             ],
             "c/graphiteComponent": [
                 "graphiteComponent/graphiteComponent.js"
+            ],
+            "c/virtualSolutionComponent": [
+                "virtualSolutionComponent/virtualSolutionComponent.js"
+            ],
+            "c/openGearComponent": [
+                "openGearComponent/openGearComponent.js"
+            ],
+            "c/mc1MasterControlComponent": [
+                "mc1MasterControlComponent/mc1MasterControlComponent.js"
+            ],
+            "c/ultrixComponent": [
+                "ultrixComponent/ultrixComponent.js"
+            ],
+            "c/ultriControlSystemComponent": [
+                "ultriControlSystemComponent/ultriControlSystemComponent.js"
+            ],
+            "c/nKRoutingSystemComponent": [
+                "nKRoutingSystemComponent/nKRoutingSystemComponent.js"
+            ],
+            "c/ultriTouchComponent": [
+                "ultriTouchComponent/ultriTouchComponent.js"
+            ],
+            "c/proXiComponent": [
+                "proXiComponent/proXiComponent.js"
+            ],
+            "c/rocketSurgeryComponent": [
+                "rocketSurgeryComponent/rocketSurgeryComponent.js"
             ]
         }
     },
