@@ -49,6 +49,36 @@
             ],
             "c/cambotComponent": [
                 "../main/default/lwc/cambotComponent/cambotComponent.js"
+            ],
+            "c/xpressionComponent": [
+                "../main/default/lwc/xpressionComponent/xpressionComponent.js"
+            ],
+            "c/airCleanerComponent": [
+                "../main/default/lwc/airCleanerComponent/airCleanerComponent.js"
+            ],
+            "c/miraPlusComponent": [
+                "../main/default/lwc/miraPlusComponent/miraPlusComponent.js"
+            ],
+            "c/miraExpressComponent": [
+                "../main/default/lwc/miraExpressComponent/miraExpressComponent.js"
+            ],
+            "c/triaPlusComponent": [
+                "../main/default/lwc/triaPlusComponent/triaPlusComponent.js"
+            ],
+            "c/triaExpressComponent": [
+                "../main/default/lwc/triaExpressComponent/triaExpressComponent.js"
+            ],
+            "c/triaNewsComponent": [
+                "../main/default/lwc/triaNewsComponent/triaNewsComponent.js"
+            ],
+            "c/acuityComponent": [
+                "../main/default/lwc/acuityComponent/acuityComponent.js"
+            ],
+            "c/carboniteComponent": [
+                "../main/default/lwc/carboniteComponent/carboniteComponent.js"
+            ],
+            "c/graphiteComponent": [
+                "../main/default/lwc/graphiteComponent/graphiteComponent.js"
             ]
         },
         "experimentalDecorators": true

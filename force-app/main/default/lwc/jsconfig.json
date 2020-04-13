@@ -50,6 +50,36 @@
             ],
             "c/cambotComponent": [
                 "cambotComponent/cambotComponent.js"
+            ],
+            "c/xpressionComponent": [
+                "xpressionComponent/xpressionComponent.js"
+            ],
+            "c/airCleanerComponent": [
+                "airCleanerComponent/airCleanerComponent.js"
+            ],
+            "c/miraPlusComponent": [
+                "miraPlusComponent/miraPlusComponent.js"
+            ],
+            "c/miraExpressComponent": [
+                "miraExpressComponent/miraExpressComponent.js"
+            ],
+            "c/triaPlusComponent": [
+                "triaPlusComponent/triaPlusComponent.js"
+            ],
+            "c/triaExpressComponent": [
+                "triaExpressComponent/triaExpressComponent.js"
+            ],
+            "c/triaNewsComponent": [
+                "triaNewsComponent/triaNewsComponent.js"
+            ],
+            "c/acuityComponent": [
+                "acuityComponent/acuityComponent.js"
+            ],
+            "c/carboniteComponent": [
+                "carboniteComponent/carboniteComponent.js"
+            ],
+            "c/graphiteComponent": [
+                "graphiteComponent/graphiteComponent.js"
             ]
         }
     },
