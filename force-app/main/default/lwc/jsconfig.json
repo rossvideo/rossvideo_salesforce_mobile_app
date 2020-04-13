@@ -41,6 +41,15 @@
             ],
             "c/acidcamComponent": [
                 "acidcamComponent/acidcamComponent.js"
+            ],
+            "c/pivotComponent": [
+                "pivotComponent/pivotComponent.js"
+            ],
+            "c/furioComponent": [
+                "furioComponent/furioComponent.js"
+            ],
+            "c/cambotComponent": [
+                "cambotComponent/cambotComponent.js"
             ]
         }
     },

@@ -40,6 +40,15 @@
             ],
             "c/acidcamComponent": [
                 "../main/default/lwc/acidcamComponent/acidcamComponent.js"
+            ],
+            "c/pivotComponent": [
+                "../main/default/lwc/pivotComponent/pivotComponent.js"
+            ],
+            "c/furioComponent": [
+                "../main/default/lwc/furioComponent/furioComponent.js"
+            ],
+            "c/cambotComponent": [
+                "../main/default/lwc/cambotComponent/cambotComponent.js"
             ]
         },
         "experimentalDecorators": true
