@@ -106,6 +106,9 @@
             ],
             "c/rocketSurgeryComponent": [
                 "../main/default/lwc/rocketSurgeryComponent/rocketSurgeryComponent.js"
+            ],
+            "c/smartShellComponent": [
+                "../main/default/lwc/smartShellComponent/smartShellComponent.js"
             ]
         },
         "experimentalDecorators": true

@@ -107,6 +107,9 @@
             ],
             "c/rocketSurgeryComponent": [
                 "rocketSurgeryComponent/rocketSurgeryComponent.js"
+            ],
+            "c/smartShellComponent": [
+                "smartShellComponent/smartShellComponent.js"
             ]
         }
     },
