@@ -121,6 +121,9 @@
             ],
             "c/tracklessStudioComponent": [
                 "../main/default/lwc/tracklessStudioComponent/tracklessStudioComponent.js"
+            ],
+            "c/triaPlusUhdComponent": [
+                "../main/default/lwc/triaPlusUhdComponent/triaPlusUhdComponent.js"
             ]
         },
         "experimentalDecorators": true

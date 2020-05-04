@@ -122,6 +122,9 @@
             ],
             "c/tracklessStudioComponent": [
                 "tracklessStudioComponent/tracklessStudioComponent.js"
+            ],
+            "c/triaPlusUhdComponent": [
+                "triaPlusUhdComponent/triaPlusUhdComponent.js"
             ]
         }
     },
