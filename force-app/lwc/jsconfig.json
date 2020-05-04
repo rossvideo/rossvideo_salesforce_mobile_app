@@ -109,6 +109,18 @@
             ],
             "c/smartShellComponent": [
                 "../main/default/lwc/smartShellComponent/smartShellComponent.js"
+            ],
+            "c/pieroComponent": [
+                "../main/default/lwc/pieroComponent/pieroComponent.js"
+            ],
+            "c/uXComponent": [
+                "../main/default/lwc/uXComponent/uXComponent.js"
+            ],
+            "c/voyagerComponent": [
+                "../main/default/lwc/voyagerComponent/voyagerComponent.js"
+            ],
+            "c/tracklessStudioComponent": [
+                "../main/default/lwc/tracklessStudioComponent/tracklessStudioComponent.js"
             ]
         },
         "experimentalDecorators": true

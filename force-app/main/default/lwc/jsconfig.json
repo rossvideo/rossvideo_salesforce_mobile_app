@@ -110,6 +110,18 @@
             ],
             "c/smartShellComponent": [
                 "smartShellComponent/smartShellComponent.js"
+            ],
+            "c/pieroComponent": [
+                "pieroComponent/pieroComponent.js"
+            ],
+            "c/uXComponent": [
+                "uXComponent/uXComponent.js"
+            ],
+            "c/voyagerComponent": [
+                "voyagerComponent/voyagerComponent.js"
+            ],
+            "c/tracklessStudioComponent": [
+                "tracklessStudioComponent/tracklessStudioComponent.js"
             ]
         }
     },
