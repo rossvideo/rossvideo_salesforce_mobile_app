@@ -124,6 +124,15 @@
             ],
             "c/triaPlusUhdComponent": [
                 "../main/default/lwc/triaPlusUhdComponent/triaPlusUhdComponent.js"
+            ],
+            "c/carboniteBlackSoloComponent": [
+                "../main/default/lwc/carboniteBlackSoloComponent/carboniteBlackSoloComponent.js"
+            ],
+            "c/carboniteUltraComponent": [
+                "../main/default/lwc/carboniteUltraComponent/carboniteUltraComponent.js"
+            ],
+            "c/moasicComponent": [
+                "../main/default/lwc/moasicComponent/moasicComponent.js"
             ]
         },
         "experimentalDecorators": true

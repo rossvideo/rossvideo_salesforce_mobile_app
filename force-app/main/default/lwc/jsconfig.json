@@ -125,6 +125,15 @@
             ],
             "c/triaPlusUhdComponent": [
                 "triaPlusUhdComponent/triaPlusUhdComponent.js"
+            ],
+            "c/carboniteBlackSoloComponent": [
+                "carboniteBlackSoloComponent/carboniteBlackSoloComponent.js"
+            ],
+            "c/carboniteUltraComponent": [
+                "carboniteUltraComponent/carboniteUltraComponent.js"
+            ],
+            "c/moasicComponent": [
+                "moasicComponent/moasicComponent.js"
             ]
         }
     },
