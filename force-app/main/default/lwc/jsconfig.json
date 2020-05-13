@@ -134,6 +134,12 @@
             ],
             "c/moasicComponent": [
                 "moasicComponent/moasicComponent.js"
+            ],
+            "c/ultricoreBscComponent": [
+                "ultricoreBscComponent/ultricoreBscComponent.js"
+            ],
+            "c/ultricoreIPComponent": [
+                "ultricoreIPComponent/ultricoreIPComponent.js"
             ]
         }
     },

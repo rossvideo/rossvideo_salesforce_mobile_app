@@ -133,6 +133,12 @@
             ],
             "c/moasicComponent": [
                 "../main/default/lwc/moasicComponent/moasicComponent.js"
+            ],
+            "c/ultricoreBscComponent": [
+                "../main/default/lwc/ultricoreBscComponent/ultricoreBscComponent.js"
+            ],
+            "c/ultricoreIPComponent": [
+                "../main/default/lwc/ultricoreIPComponent/ultricoreIPComponent.js"
             ]
         },
         "experimentalDecorators": true
