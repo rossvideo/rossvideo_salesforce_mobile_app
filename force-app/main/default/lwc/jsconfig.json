@@ -3,17 +3,56 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/testComponent": [
-                "testComponent/testComponent.js"
+            "c/acidcamComponent": [
+                "acidcamComponent/acidcamComponent.js"
             ],
-            "c/lightningComponent": [
-                "lightningComponent/lightningComponent.js"
+            "c/acuityComponent": [
+                "acuityComponent/acuityComponent.js"
+            ],
+            "c/airCleanerComponent": [
+                "airCleanerComponent/airCleanerComponent.js"
+            ],
+            "c/bachLibraryComponent": [
+                "bachLibraryComponent/bachLibraryComponent.js"
             ],
             "c/backToHome": [
                 "backToHome/backToHome.js"
             ],
-            "c/powerPlayComponent": [
-                "powerPlayComponent/powerPlayComponent.js"
+            "c/cambotComponent": [
+                "cambotComponent/cambotComponent.js"
+            ],
+            "c/carboniteBlackSoloComponent": [
+                "carboniteBlackSoloComponent/carboniteBlackSoloComponent.js"
+            ],
+            "c/carboniteComponent": [
+                "carboniteComponent/carboniteComponent.js"
+            ],
+            "c/carboniteUltraComponent": [
+                "carboniteUltraComponent/carboniteUltraComponent.js"
+            ],
+            "c/dashBoardComponent": [
+                "dashBoardComponent/dashBoardComponent.js"
+            ],
+            "c/furioComponent": [
+                "furioComponent/furioComponent.js"
+            ],
+            "c/gatorComponent": [
+                "gatorComponent/gatorComponent.js"
+            ],
+            "c/gearliteComponent": [
+                "gearliteComponent/gearliteComponent.js"
+            ],
+            "c/graphiteComponent": [
+                "graphiteComponent/graphiteComponent.js"
+            ],
+            "c/horizonComponent": [
+                "horizonComponent/horizonComponent.js"
+            ],
+            "c/inceptionCloudComponent": [
+                "inceptionCloudComponent/inceptionCloudComponent.js"
+            ],
+            "c/inceptionLiveComponent": [
+                "inceptionLiveComponent/inceptionLiveComponent.js"
             ],
             "c/inceptionNewsComponent": [
                 "inceptionNewsComponent/inceptionNewsComponent.js"
@@ -21,89 +60,44 @@
             "c/inceptionSocialComponent": [
                 "inceptionSocialComponent/inceptionSocialComponent.js"
             ],
-            "c/inceptionLiveComponent": [
-                "inceptionLiveComponent/inceptionLiveComponent.js"
-            ],
-            "c/inceptionCloudComponent": [
-                "inceptionCloudComponent/inceptionCloudComponent.js"
-            ],
-            "c/streamlinePlayComponent": [
-                "streamlinePlayComponent/streamlinePlayComponent.js"
-            ],
-            "c/streamlineCloudComponent": [
-                "streamlineCloudComponent/streamlineCloudComponent.js"
-            ],
-            "c/horizonComponent": [
-                "horizonComponent/horizonComponent.js"
-            ],
-            "c/overdriveComponent": [
-                "overdriveComponent/overdriveComponent.js"
-            ],
-            "c/acidcamComponent": [
-                "acidcamComponent/acidcamComponent.js"
-            ],
-            "c/pivotComponent": [
-                "pivotComponent/pivotComponent.js"
-            ],
-            "c/furioComponent": [
-                "furioComponent/furioComponent.js"
-            ],
-            "c/cambotComponent": [
-                "cambotComponent/cambotComponent.js"
-            ],
-            "c/xpressionComponent": [
-                "xpressionComponent/xpressionComponent.js"
-            ],
-            "c/airCleanerComponent": [
-                "airCleanerComponent/airCleanerComponent.js"
-            ],
-            "c/miraPlusComponent": [
-                "miraPlusComponent/miraPlusComponent.js"
-            ],
-            "c/miraExpressComponent": [
-                "miraExpressComponent/miraExpressComponent.js"
-            ],
-            "c/triaPlusComponent": [
-                "triaPlusComponent/triaPlusComponent.js"
-            ],
-            "c/triaExpressComponent": [
-                "triaExpressComponent/triaExpressComponent.js"
-            ],
-            "c/triaNewsComponent": [
-                "triaNewsComponent/triaNewsComponent.js"
-            ],
-            "c/acuityComponent": [
-                "acuityComponent/acuityComponent.js"
-            ],
-            "c/carboniteComponent": [
-                "carboniteComponent/carboniteComponent.js"
-            ],
-            "c/graphiteComponent": [
-                "graphiteComponent/graphiteComponent.js"
-            ],
-            "c/virtualSolutionComponent": [
-                "virtualSolutionComponent/virtualSolutionComponent.js"
-            ],
-            "c/openGearComponent": [
-                "openGearComponent/openGearComponent.js"
+            "c/lightningComponent": [
+                "lightningComponent/lightningComponent.js"
             ],
             "c/mc1MasterControlComponent": [
                 "mc1MasterControlComponent/mc1MasterControlComponent.js"
             ],
-            "c/ultrixComponent": [
-                "ultrixComponent/ultrixComponent.js"
+            "c/miraExpressComponent": [
+                "miraExpressComponent/miraExpressComponent.js"
             ],
-            "c/ultriControlSystemComponent": [
-                "ultriControlSystemComponent/ultriControlSystemComponent.js"
+            "c/miraPlusComponent": [
+                "miraPlusComponent/miraPlusComponent.js"
+            ],
+            "c/moasicComponent": [
+                "moasicComponent/moasicComponent.js"
             ],
             "c/nKRoutingSystemComponent": [
                 "nKRoutingSystemComponent/nKRoutingSystemComponent.js"
             ],
-            "c/ultriTouchComponent": [
-                "ultriTouchComponent/ultriTouchComponent.js"
+            "c/openGearComponent": [
+                "openGearComponent/openGearComponent.js"
+            ],
+            "c/overdriveComponent": [
+                "overdriveComponent/overdriveComponent.js"
+            ],
+            "c/pieroComponent": [
+                "pieroComponent/pieroComponent.js"
+            ],
+            "c/pivotComponent": [
+                "pivotComponent/pivotComponent.js"
+            ],
+            "c/powerPlayComponent": [
+                "powerPlayComponent/powerPlayComponent.js"
             ],
             "c/proXiComponent": [
                 "proXiComponent/proXiComponent.js"
+            ],
+            "c/raptorComponent": [
+                "raptorComponent/raptorComponent.js"
             ],
             "c/rocketSurgeryComponent": [
                 "rocketSurgeryComponent/rocketSurgeryComponent.js"
@@ -111,35 +105,62 @@
             "c/smartShellComponent": [
                 "smartShellComponent/smartShellComponent.js"
             ],
-            "c/pieroComponent": [
-                "pieroComponent/pieroComponent.js"
+            "c/streamlineCloudComponent": [
+                "streamlineCloudComponent/streamlineCloudComponent.js"
             ],
-            "c/uXComponent": [
-                "uXComponent/uXComponent.js"
-            ],
-            "c/voyagerComponent": [
-                "voyagerComponent/voyagerComponent.js"
+            "c/streamlinePlayComponent": [
+                "streamlinePlayComponent/streamlinePlayComponent.js"
             ],
             "c/tracklessStudioComponent": [
-                "tracklessStudioComponent/tracklessStudioComponent.js"
+                "sandboxLanding/testComponent.jslessStudioComponent.js"
+            ],
+            "c/triaExpressComponent": [
+                "triaExpressComponent/triaExpressComponent.js"
+            ],
+            "c/triaNewsComponent": [
+                "triaNewsComponent/triaNewsComponent.js"
+            ],
+            "c/triaPlusComponent": [
+                "triaPlusComponent/triaPlusComponent.js"
             ],
             "c/triaPlusUhdComponent": [
                 "triaPlusUhdComponent/triaPlusUhdComponent.js"
             ],
-            "c/carboniteBlackSoloComponent": [
-                "carboniteBlackSoloComponent/carboniteBlackSoloComponent.js"
+            "c/uXComponent": [
+                "uXComponent/uXComponent.js"
             ],
-            "c/carboniteUltraComponent": [
-                "carboniteUltraComponent/carboniteUltraComponent.js"
-            ],
-            "c/moasicComponent": [
-                "moasicComponent/moasicComponent.js"
+            "c/ultriTouchComponent": [
+                "ultriTouchComponent/ultriTouchComponent.js"
             ],
             "c/ultricoreBscComponent": [
                 "ultricoreBscComponent/ultricoreBscComponent.js"
             ],
             "c/ultricoreIPComponent": [
                 "ultricoreIPComponent/ultricoreIPComponent.js"
+            ],
+            "c/ultriscapeComponent": [
+                "ultriscapeComponent/ultriscapeComponent.js"
+            ],
+            "c/ultrixComponent": [
+                "ultrixComponent/ultrixComponent.js"
+            ],
+            "c/virtualSolutionComponent": [
+                "virtualSolutionComponent/virtualSolutionComponent.js"
+            ],
+            "c/voyagerComponent": [
+                "voyagerComponent/voyagerComponent.js"
+            ],
+            "c/xpressionComponent": [
+                "xpressionComponent/xpressionComponent.js"
+            ],
+            "c/productCatalogue": [
+                "productCatalogue/productCatalogue.js"
+            ],
+            "c/streamlineNewsComponent": [
+                "streamlineNewsComponent/streamlineNewsComponent.js"
+            ],
+            "c/virtualizationComponent": [
+                "virtualizationComponent/virtualizationComponent.js"
             ]
         }
     },
