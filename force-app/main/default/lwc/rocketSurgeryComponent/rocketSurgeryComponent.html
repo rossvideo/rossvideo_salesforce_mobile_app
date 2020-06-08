@@ -1,7 +1,7 @@
 <template>
   <div>
     <lightning-card>
-      <h1>Lightning</h1>
+      <h1>Rocket Surgery</h1>
       <lightning-record-view-form
         record-id="a8p3C000000DGqIQAW"
         object-api-name="Product_Category__c"
@@ -51,4 +51,96 @@
       </lightning-record-view-form>
     </lightning-card>
   </div>
+  <lightning-card title="Pricing Information" icon-name="action:new_note">
+    <div class="slds-m-around_medium">
+      <table>
+        <tr>
+          <th>Product Name</th>
+          <th>Product Code</th>
+          <th>Pricing</th>
+        </tr>
+        <tr>
+          <td>pro-xi Workstation Integrator, series 100, fully loaded</td>
+          <td>
+            <a
+              href="https://rossvideo--qa.lightning.force.com/lightning/r/Product2/01t0B000007yyVcQAI/view"
+              >pro-xi102.8</a
+            >
+          </td>
+          <td>
+            <lightning-record-view-form
+              record-id="01t0B000007yyVcQAI"
+              object-api-name="Product2"
+              density="comfy"
+            >
+              <lightning-output-field
+                field-name="USD_Price__c"
+              ></lightning-output-field>
+            </lightning-record-view-form>
+          </td>
+        </tr>
+        <tr>
+          <td>pro-xi Workstation Integrator, series 100</td>
+          <td>
+            <a
+              href="https://rossvideo--qa.lightning.force.com/lightning/r/Product2/01t0B000007yyVhQAI/view"
+              >pro-xi101.4</a
+            >
+          </td>
+          <td>
+            <lightning-record-view-form
+              record-id="01t0B000007yyVhQAI"
+              object-api-name="Product2"
+              density="comfy"
+            >
+              <lightning-output-field
+                field-name="USD_Price__c"
+                lable="$"
+              ></lightning-output-field>
+            </lightning-record-view-form>
+          </td>
+        </tr>
+        <tr>
+          <td>pro-xi100 Incoming System Card</td>
+          <td>
+            <a
+              href="https://rossvideo--qa.lightning.force.com/lightning/r/Product2/01t0B000007yqb8QAA/view"
+              >pro-xi100-ISC</a
+            >
+          </td>
+          <td>
+            <lightning-record-view-form
+              record-id="01t0B000007yqb8QAA"
+              object-api-name="Product2"
+              density="comfy"
+            >
+              <lightning-output-field
+                field-name="USD_Price__c"
+              ></lightning-output-field>
+            </lightning-record-view-form>
+          </td>
+        </tr>
+        <tr>
+          <td>pro-xi100 Video Output Card</td>
+          <td>
+            <a
+              href="https://rossvideo--qa.lightning.force.com/lightning/r/Product2/01t0B000007yqbDQAQ/view"
+              >pro-xi100-VOC</a
+            >
+          </td>
+          <td>
+            <lightning-record-view-form
+              record-id="01t0B000007yqbDQAQ"
+              object-api-name="Product2"
+              density="comfy"
+            >
+              <lightning-output-field
+                field-name="USD_Price__c"
+              ></lightning-output-field>
+            </lightning-record-view-form>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </lightning-card>
 </template>

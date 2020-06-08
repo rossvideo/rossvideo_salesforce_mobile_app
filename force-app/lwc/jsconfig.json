@@ -160,6 +160,18 @@
             ],
             "c/virtualizationComponent": [
                 "../main/default/lwc/virtualizationComponent/virtualizationComponent.js"
+            ],
+            "c/newtComponent": [
+                "../main/default/lwc/newtComponent/newtComponent.js"
+            ],
+            "c/newIpComponent": [
+                "../main/default/lwc/newIpComponent/newIpComponent.js"
+            ],
+            "c/iggyComponent": [
+                "../main/default/lwc/iggyComponent/iggyComponent.js"
+            ],
+            "c/furioSkyDollyComponent": [
+                "../main/default/lwc/furioSkyDollyComponent/furioSkyDollyComponent.js"
             ]
         },
         "experimentalDecorators": true

@@ -161,6 +161,18 @@
             ],
             "c/virtualizationComponent": [
                 "virtualizationComponent/virtualizationComponent.js"
+            ],
+            "c/newtComponent": [
+                "newtComponent/newtComponent.js"
+            ],
+            "c/newIpComponent": [
+                "newIpComponent/newIpComponent.js"
+            ],
+            "c/iggyComponent": [
+                "iggyComponent/iggyComponent.js"
+            ],
+            "c/furioSkyDollyComponent": [
+                "furioSkyDollyComponent/furioSkyDollyComponent.js"
             ]
         }
     },
