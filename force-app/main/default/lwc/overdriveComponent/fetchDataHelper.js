@@ -4,7 +4,7 @@ const recordMetadata = {
 
 export default function fetchDataHelper({ amountOfRecords }) {
   return fetch(
-    "https://rossvideo--qa.lightning.force.com/lightning/r/a8nP00000008QzkIAE/related/Products__r/view",
+    "https://rossvideo--staging.lightning.force.com/lightning/r/a8nP00000008QzkIAE/related/Products__r/view",
     {
       method: "POST",
       headers: {

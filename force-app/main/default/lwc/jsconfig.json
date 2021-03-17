@@ -36,6 +36,9 @@
             "c/furioComponent": [
                 "furioComponent/furioComponent.js"
             ],
+            "c/furioSkyDollyComponent": [
+                "furioSkyDollyComponent/furioSkyDollyComponent.js"
+            ],
             "c/gatorComponent": [
                 "gatorComponent/gatorComponent.js"
             ],
@@ -47,6 +50,9 @@
             ],
             "c/horizonComponent": [
                 "horizonComponent/horizonComponent.js"
+            ],
+            "c/iggyComponent": [
+                "iggyComponent/iggyComponent.js"
             ],
             "c/inceptionCloudComponent": [
                 "inceptionCloudComponent/inceptionCloudComponent.js"
@@ -78,6 +84,12 @@
             "c/nKRoutingSystemComponent": [
                 "nKRoutingSystemComponent/nKRoutingSystemComponent.js"
             ],
+            "c/newIpComponent": [
+                "newIpComponent/newIpComponent.js"
+            ],
+            "c/newtComponent": [
+                "newtComponent/newtComponent.js"
+            ],
             "c/openGearComponent": [
                 "openGearComponent/openGearComponent.js"
             ],
@@ -96,6 +108,9 @@
             "c/proXiComponent": [
                 "proXiComponent/proXiComponent.js"
             ],
+            "c/productCatalogue": [
+                "productCatalogue/productCatalogue.js"
+            ],
             "c/raptorComponent": [
                 "raptorComponent/raptorComponent.js"
             ],
@@ -108,11 +123,14 @@
             "c/streamlineCloudComponent": [
                 "streamlineCloudComponent/streamlineCloudComponent.js"
             ],
+            "c/streamlineNewsComponent": [
+                "streamlineNewsComponent/streamlineNewsComponent.js"
+            ],
             "c/streamlinePlayComponent": [
                 "streamlinePlayComponent/streamlinePlayComponent.js"
             ],
             "c/tracklessStudioComponent": [
-                "sandboxLanding/testComponent.jslessStudioComponent.js"
+                "tracklessStudioComponent/tracklessStudioComponent.js"
             ],
             "c/triaExpressComponent": [
                 "triaExpressComponent/triaExpressComponent.js"
@@ -147,32 +165,14 @@
             "c/virtualSolutionComponent": [
                 "virtualSolutionComponent/virtualSolutionComponent.js"
             ],
+            "c/virtualizationComponent": [
+                "virtualizationComponent/virtualizationComponent.js"
+            ],
             "c/voyagerComponent": [
                 "voyagerComponent/voyagerComponent.js"
             ],
             "c/xpressionComponent": [
                 "xpressionComponent/xpressionComponent.js"
-            ],
-            "c/productCatalogue": [
-                "productCatalogue/productCatalogue.js"
-            ],
-            "c/streamlineNewsComponent": [
-                "streamlineNewsComponent/streamlineNewsComponent.js"
-            ],
-            "c/virtualizationComponent": [
-                "virtualizationComponent/virtualizationComponent.js"
-            ],
-            "c/newtComponent": [
-                "newtComponent/newtComponent.js"
-            ],
-            "c/newIpComponent": [
-                "newIpComponent/newIpComponent.js"
-            ],
-            "c/iggyComponent": [
-                "iggyComponent/iggyComponent.js"
-            ],
-            "c/furioSkyDollyComponent": [
-                "furioSkyDollyComponent/furioSkyDollyComponent.js"
             ]
         }
     },
@@ -183,6 +183,11 @@
     "typeAcquisition": {
         "include": [
             "jest"
+        ]
+    },
+    "paths": {
+        "c/*": [
+            "*"
         ]
     }
 }
